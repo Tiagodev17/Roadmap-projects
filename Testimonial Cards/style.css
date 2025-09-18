@@ -180,3 +180,10 @@ h2{
     height: 150px;
     border-radius: 50%;
 }
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn:first-child{
+    transform: rotateZ(-0.50turn);
+}
