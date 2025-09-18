@@ -22,6 +22,7 @@ header{
     flex-direction: column;
     padding-top: 1rem;
     gap: 2rem;
+    width: 40%;
 }
 .txtOne{
     max-width: 100%;
@@ -85,7 +86,7 @@ header{
   
 }
 .Txtone{
-    max-width: 50%;
+    max-width: 70%;
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
