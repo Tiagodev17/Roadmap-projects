@@ -53,7 +53,7 @@ header{
     margin-left: 4rem;
     transform: rotate(45deg);
     position: absolute;
-    top: 150px;
+    top: 160px;
 }
 .content{
     display: flex;
@@ -153,38 +153,30 @@ footer{
     margin-top: 1rem;
 }
 .containerFour{
-    width: 65%;
+    width: 50%;
     border-radius: 10px;
-    padding: 10rem;
+    padding: 3rem;
     border: 2px solid black;
+    
 }
 h2{
     max-width: 100%;
     text-align: center;
     line-height: 40px;
 }
-.idk{
-    background-color: black;
-    width: 800px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.contents{
-    display: flex;
-    justify-content: center;
-}
-.img{
+
+
+
+.jr{
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
-.btn{
+.containerFour2{
+    background-color: black;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
-.btn:first-child{
-    transform: rotateZ(-0.50turn);
+.arrow-btn{
+    
 }
