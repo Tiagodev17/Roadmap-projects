@@ -170,10 +170,15 @@ h2{
     border-radius: 50%;
 }
 .containerFour2{
-    background-color: black;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
-.arrow-btn{
+.containerall{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
     
 }
