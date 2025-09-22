@@ -169,14 +169,15 @@ h2{
     height: 200px;
     width: 100px;
     border-radius: 50%;
+    
 }
 .containerall{
     padding: 2rem;
+    max-width: 1000px;
+    display: flex;
 }
 .containerFour2{
-   position: relative;
-   max-width: 48rem;
-   margin: 0 auto;
+ 
 }
 .slider{
     display: flex;
@@ -184,9 +185,11 @@ h2{
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    height: 15rem;
+    justify-content: center;
 }
 .slider img{
-    flex: 1 0 100%;
+    
     scroll-snap-align: start;
 }
 
@@ -206,6 +209,5 @@ h2{
     background-color: black;
     opacity: 0.75;
     transition: opacity ease 250ms;
-
 }
 
