@@ -167,47 +167,29 @@ h2{
 
 .jr{
     height: 200px;
-    width: 100px;
+    width: 200px;
     border-radius: 50%;
     
 }
 .containerall{
     padding: 2rem;
-    max-width: 1000px;
+    width: 1000px;
     display: flex;
-}
-.containerFour2{
- 
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    background-color: red
 }
 .slider{
-    display: flex;
-    aspect-ratio: 16 / 9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    height: 15rem;
-    justify-content: center;
+    flex: 1 0 100%;
 }
 .slider img{
     
     scroll-snap-align: start;
 }
 
-.sliderNav{
-    display: flex;
-    column-gap: 1rem;
+.prev{
     position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-.sliderNav a{
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: black;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
+
 }
 
