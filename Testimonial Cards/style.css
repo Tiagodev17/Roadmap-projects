@@ -172,8 +172,15 @@ h2{
 .containerall{
     display: flex;
     justify-content: center;
+    gap: 1rem;
 }
-.containerFour{
+.containerFour2{
     display: flex;
     justify-content: center;
+}
+.item-{
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    display: flex 0 0 20rem;
 }
